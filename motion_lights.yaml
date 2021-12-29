@@ -33,7 +33,7 @@ blueprint:
             unit_of_measurement: milliseconds
     brightness:
         name: Brightness
-        description: "Light Brightness"
+        description: "Light Brightness %"
         default: 20
         selector:
           number:
