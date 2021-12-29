@@ -23,23 +23,23 @@ blueprint:
             entity:
               domain: light
     delay:
-      name: (OPTIONAL) Delay
-      description: "Delay on/off lights"
-      default: 1000
-      selector:
-        number:
-          min: 0
-          max: 20000
-          unit_of_measurement: milliseconds
+        name: (OPTIONAL) Delay
+        description: "Delay on/off lights"
+        default: 1000
+        selector:
+          number:
+            min: 0
+            max: 20000
+            unit_of_measurement: milliseconds
     brightness:
-      name: Brightness
-      Description: "Light Brightness"
-      default: 20
-      selector:
-        number:
-          min: 0
-          max: 100
-          unit_of_measurement: percentage
+        name: Brightness
+        description: "Light Brightness"
+        default: 20
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: percentage
 
 mode: restart
 max_exceeded: silent
